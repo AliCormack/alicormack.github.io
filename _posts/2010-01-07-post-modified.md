@@ -7,6 +7,9 @@ tags:
   - Post Formats
   - readability
   - standard
+header:
+  image: https://mmistakes.github.io/minimal-mistakes/assets/images/mm-single-header-example.jpg
+classes: wide
 ---
 
 This post has been updated and should show a modified date if used in a layout.

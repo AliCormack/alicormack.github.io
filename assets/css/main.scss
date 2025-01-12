@@ -1,0 +1,57 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+h2
+{
+    margin: 0.5em 0 0.5em;
+    color:rgb(54, 54, 54);
+}
+
+.page__content h2
+{
+    border:0;
+    // padding-bottom: 0.0em;
+}
+
+h1
+{
+    margin: 1.5em 0 0.5em;
+}
+
+.page__content h1
+{
+    border-bottom: 1px solid #baaa92;
+    padding-bottom: 0.5em;
+}
+
+.date
+{
+    float:right;
+    color:rgb(82, 82, 82);
+    width:20%;
+    text-align: right;    
+    font-weight:normal;
+}
+
+.cv-header
+{
+    float:left;
+    width:80%;
+}
+
+html { /* apply a natural box layout model to all elements */box-sizing: border-box;background-color: #e8d5b7;font-size: 16px;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;}
+@media (min-width: 48em) { html { font-size: 16px; } }
+@media (min-width: 64em) { html { font-size: 16px; } }
+@media (min-width: 80em) { html { font-size: 18px; } }
+
+.sidebar img {
+    width: 50%;
+    border-radius: 50%;
+}
