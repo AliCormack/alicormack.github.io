@@ -3,18 +3,17 @@ title: "Inspire Gallery New Tab"
 categories: Portfolio
 excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
 header:
-  # image: /assets/images/portfolio/lego-horizons/LegoHorizons1.jpg
-  overlay_image: /assets/images/portfolio/lego-horizons/LegoHorizons4.jpg
+  overlay_image: /assets/images/portfolio/inspire/header2.png
   overlay_filter: 0.5
-  teaser: /assets/images/portfolio/lego-horizons/LegoHorizons1.jpg
+  teaser: /assets/images/portfolio/inspire/1280x800.png
   actions:
-    - label: "Playstation Store Page"
-      url: "https://www.playstation.com/en-gb/games/lego-horizon-adventures/"
+    - label: "Chrome Store Page"
+      url: "https://chrome.google.com/webstore/detail/inspire-gallery-new-tab/feldechheiacimdajbkleojednhpophc"
 sidebar:
   - title: "Role"
     # image: http://placehold.it/350x250
     # image_alt: "logo"
-    text: "Principal Graphics Programmer"
+    text: "Designer, Programmer"
   - title: "Platforms"
     text: "Playstation 5, Nintendo Switch, PC\n\nReleased November 2024"
 gallery-ps5:
@@ -37,17 +36,8 @@ gallery-switch:
 classes: wide
 ---
 
-For Lego Horizon Adventures we wanted to take LEGO games to a new level, and achieve movie quality visuals on console hardware. As principal graphics programmer I was involved in many areas of this effort:
+![Alt](/assets/images/portfolio/inspire/1280x800.png "Title")
 
-* A pipeline for models which produces high quality meshes for all target platforms, whilst allowing extensive customisation of models such as color and finish.
-* Improvements to high-end lighting such as improved AO and 
-* Improving quality and stability of upscaling solutions
-* 
+Working in the past on graphic and web design I spent a lot of time scrolling through galleries looking for inspiration related to the piece I was working on. Inspire Gallery New Tab brings this to to every new tab opened, hopefully giving people some interesting ideas and brightening their day with art and design from around the web.
 
-{% include gallery id="gallery-ps5" caption="Playstation 5 Screenshots" %}
-
-These principles were applied to all our target platforms, with alternative techniques developed for less powerful devices. This included accurate reflections, global illumination, cinematic depth of field, high-fidelity shadows and post processing. All of this comes together to provide our players a memorable and visually engaging experience, whatever they play on. I was also managing the collaboration with external programming teams on this work. 
-
-{% include gallery id="gallery-switch" caption="Nintendo Switch Screenshots" %}
-
-{% include video id="IJLdXNhGQ-Q" provider="youtube" %}
+This project was created using SASS, CSS, HTML and Javascript, as well as the Behance.com API and the ArtStation API to grab images.

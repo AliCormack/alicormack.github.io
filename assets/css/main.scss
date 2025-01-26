@@ -5,8 +5,10 @@ search: false
 
 @charset "utf-8";
 
+$primary-color:#f55b47;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes"; // main partials    
 
 h2
 {
@@ -23,6 +25,7 @@ h2
 h1
 {
     margin: 1.5em 0 0.5em;
+    color:$primary-color;
 }
 
 .page__content h1
@@ -38,6 +41,49 @@ h1
     width:20%;
     text-align: right;    
     font-weight:normal;
+}
+
+.grid__item {
+    margin-bottom: 0em;
+}  
+
+.grid__item {
+    margin-bottom: 0em;
+  
+    .archive__item-teaser {
+        max-height: 200px;
+    }
+
+    @include breakpoint($small) {
+      float: inline-start;
+      width: span(10 of 10);
+  
+      &:nth-child(2n + 1) {
+        clear: both;
+        margin-inline-start: 0;
+      }
+  
+      &:nth-child(2n + 2) {
+        clear: none;
+        margin-inline-start: gutter(of 10);
+      }
+    }
+  
+    @include breakpoint($medium) {
+      margin-inline: 0; /* override margin*/
+      width: span(5 of 10);
+    }
+}
+
+.page__hero--overlay
+{
+    // background-position: bottom -300px right 100px;
+}
+
+.greedy-nav a.site-title
+{
+    color:$primary-color;
+    font-size:25px;
 }
 
 .cv-header

@@ -10,9 +10,9 @@ sidebar:
     image: /assets/images/bio-photo.png
     image_alt: "Bio Pic"
     text: "C++, C#, HLSL, Metal, Vulkan, Python, Javascript\n\n
-    Games Console Architecture\n\n
+    Games Console Development\n\n
     Mobile GPU Architecture\n\n
-    Optimisation\n\n
+    Low Level Optimisation\n\n
     3D Mathematics\n\n
     RHI Specializations\n\n
     Unreal Engine, Unity\n\n
