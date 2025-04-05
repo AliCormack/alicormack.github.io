@@ -38,10 +38,23 @@ custom_css: resume
 <h2 class="cv-header">Studio Gobo - Principal Graphics Programmer</h2>
 <h2 class="date">2022 - Current</h2>
 
-Primarily working on [Lego Horizon Adventures](/portfolio/lego-horizon-adventures/) for Playstation 5, PC and Switch, pushing high-end visuals on compatible platforms whilst still providing a great experience on lower-end hardware with numerous bespoke graphics techniques. Some examples of my contributions include:
+Primarily working on [Lego Horizon Adventures](/portfolio/lego-horizon-adventures/) for Playstation 5, PC and Switch. Pushing high-end visuals on compatible platforms whilst still providing a great experience on lower-end hardware with numerous bespoke graphics techniques. Some examples of my contributions include:
 
 * Leading internal and external graphics teams, and co-ordination with other departments
-* 
+* Design of highly scalable rendering pipeline for target platforms, with minimal additional development cost
+* Identification and resolution of performance bottlenecks across CPU and GPU
+* Mesh drawing modifications for runtime LEGO model recoloring
+* Resolution of low-level PC GPU vendor specific crashes
+* Improved tracking post-launch of GPU crashes
+* Reduction of shadow cache invalidations
+* HDR and ACES tonemapping improvements
+* Ensuring Nintendo Switch GPU performance best-practices
+* Efficient per-fragment SH baked Global Illumination on low end devices
+* Improvements to GPU based light baking
+* Baked bent-normal skylight diffuse and specular occlusion
+* Additional debug visualisations (draw calls, GBuffer targets)
+* Modification to depth-stencil tests for post-procesing techniques
+* Resolved platform-specific shader compilation issues
 
 <h2 class="cv-header">Natural Motion (Zynga/T2)- Senior Graphics & Tools Programmer</h2>
 <h2 class="date">2016 - 2022</h2>

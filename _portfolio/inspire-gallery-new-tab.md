@@ -1,7 +1,7 @@
 ---
 title: "Inspire Gallery New Tab"
 categories: Portfolio
-excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
+excerpt: "Chrome extension for displaying inspiring art from around the web on every new tab."
 header:
   overlay_image: /assets/images/portfolio/inspire/header2.png
   overlay_filter: 0.5
@@ -15,7 +15,7 @@ sidebar:
     # image_alt: "logo"
     text: "Designer, Programmer"
   - title: "Platforms"
-    text: "Playstation 5, Nintendo Switch, PC\n\nReleased November 2024"
+    text: "Chrome\n\nReleased 2019"
 gallery-ps5:
   - url: /assets/images/portfolio/lego-horizons/LegoHorizons1.jpg
     image_path: /assets/images/portfolio/lego-horizons/LegoHorizons1.jpg
@@ -38,6 +38,6 @@ classes: wide
 
 ![Alt](/assets/images/portfolio/inspire/1280x800.png "Title")
 
-Working in the past on graphic and web design I spent a lot of time scrolling through galleries looking for inspiration related to the piece I was working on. Inspire Gallery New Tab brings this to to every new tab opened, hopefully giving people some interesting ideas and brightening their day with art and design from around the web.
+Working in the past on mobile apps, UI/UX and web design, I spent a lot of time scrolling through galleries looking for inspiration related to the piece I was working on. Inspire Gallery New Tab brings this to to every new tab opened, hopefully giving people some interesting ideas and brightening their day with art and design from around the web.
 
-This project was created using SASS, CSS, HTML and Javascript, as well as the Behance.com API and the ArtStation API to grab images.
+This project was created using SASS, CSS, HTML and Javascript, as well as the Itch, Behance and ArtStation APIs to grab images.
