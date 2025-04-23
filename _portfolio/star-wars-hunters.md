@@ -1,7 +1,7 @@
 ---
 title: "Star Wars Hunters"
 categories: Portfolio
-excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
+excerpt: "High fidelity mobile gaming on the planet of Vespaara"
 header:
   # image: /assets/images/portfolio/lego-horizons/LegoHorizons1.jpg
   overlay_image: /assets/images/portfolio/hunters/header.jpg
@@ -14,9 +14,9 @@ sidebar:
   - title: "Role"
     # image: http://placehold.it/350x250
     # image_alt: "logo"
-    text: "Principal Graphics Programmer"
+    text: "Senior Graphics Programmer"
   - title: "Platforms"
-    text: "Playstation 5, Nintendo Switch, PC\n\nReleased November 2024"
+    text: "iOS, Android, Nintendo Switch"
 gallery-ps5:
   - url: /assets/images/portfolio/lego-horizons/LegoHorizons1.jpg
     image_path: /assets/images/portfolio/lego-horizons/LegoHorizons1.jpg
@@ -36,19 +36,17 @@ gallery-switch:
     alt: "placeholder image 1"
 ---
 
+Working on [Star Wars : Hunters](/portfolio/star-wars-hunters) to bring AAA quality visuals to Android, iOS and Switch (and now PC). Some of my responsibilities included:
+
+* Tight collaboration with art teams to realize their requirements in-engine. 
+* A focus on performance; creating isolated test scenarios to identify problem areas and allow for measurable iteration. In-depth analysis of performance data. Description and delegation of specific optimisation tasks for other teams.
+* Low level optimisations to improve GPU throughput, synchronization and shader occupancy.
 * Automated tooling for capturing all images for the store in editor, with a high degree of customisability, and combatible with all UI layouts due to additional framing logic.
-
-For Lego Horizon Adventures we wanted to take LEGO games to a new level, and achieve movie quality visuals on console hardware. As principal graphics programmer I was involved in many areas of this effort:
-
-* A pipeline for models which produces high quality meshes for all target platforms, whilst allowing extensive customisation of models such as color and finish.
-* Improvements to high-end lighting such as improved AO and 
-* Improving quality and stability of upscaling solutions
-* 
-
-{% include gallery id="gallery-ps5" caption="Playstation 5 Screenshots" %}
-
-These principles were applied to all our target platforms, with alternative techniques developed for less powerful devices. This included accurate reflections, global illumination, cinematic depth of field, high-fidelity shadows and post processing. All of this comes together to provide our players a memorable and visually engaging experience, whatever they play on. I was also managing the collaboration with external programming teams on this work. 
-
-{% include gallery id="gallery-switch" caption="Nintendo Switch Screenshots" %}
+* Iteration on a novel stylized shading model, including light masking, graduated shadows and rim lighting.
+* Disk and runtime memory reductions, including compressed cubemaps and shader bytecode.
+* Per API accommodations for Vulkan, Metal, DirectX and Switch
+* Numerous Unreal modifications, deep dives, and bug fixes. Upgrading of our customized engine to newer versions
+* Development of tools for cosmetics assessment & image captures, shader cache creation and asset validation.
+* Providing feedback and documentation for junior programmers and new team members. Voicing innovate ideas for the games development and production & asset pipelines
 
 {% include video id="h7hibRbsx8A" provider="youtube" %}

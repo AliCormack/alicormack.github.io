@@ -1,6 +1,6 @@
 ---
-title: "Inspire Gallery New Tab"
-categories: Portfolio
+title: "Hexagons"
+categories: audiovisuals
 excerpt: "Chrome extension for displaying inspiring art from around the web on every new tab."
 header:
   overlay_image: /assets/images/portfolio/inspire/header2.png
@@ -41,5 +41,3 @@ classes: wide
 Working in the past on mobile apps, UI/UX and web design, I spent a lot of time scrolling through galleries looking for inspiration related to the piece I was working on. Inspire Gallery New Tab brings this to to every new tab opened, hopefully giving people some interesting ideas and brightening their day with art and design from around the web.
 
 This project was created using SASS, CSS, HTML and Javascript, as well as the Itch, Behance and ArtStation APIs to grab images.
-
-## TODO ADD QUOTE

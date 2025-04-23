@@ -7,9 +7,11 @@ author_profile: false
 classes: wide
 sidebar:
   - title: "Skills"
-    image: /assets/images/bio-photo.png
+    image: /assets/images/bio-photo-2.jpg
     image_alt: "Bio Pic"
     text: "C++, C#, HLSL, Metal, Vulkan, Python, Javascript\n\n
+    Renderdoc, PIX, Razor, NSights\n\n
+    Multithreading\n\n
     Games Console Development\n\n
     Mobile GPU Architecture\n\n
     Low Level Optimisation\n\n
@@ -32,7 +34,6 @@ custom_css: resume
 {% endif %} -->
 
 *Motivated, professional and curious graphics programmer with 8+ years of experience. Keen interest in helping to realize a project's vision by facilitating gripping visuals, high performance software and creating efficient tools.*
-
 # Experience
 
 <h2 class="cv-header">Studio Gobo - Principal Graphics Programmer</h2>

@@ -49,6 +49,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  audiovisuals:
+    output: true
+    permalink: /:collection/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -74,7 +77,7 @@ plugins:
 
 author:
   name   : "Ali Cormack"
-  avatar : "/assets/images/bio-photo.png"
+  avatar : "/assets/images/bio-photo-2.jpg"
   bio    : "Thoughts and experiments with graphics programming, audio-visuals and technical art.\n\nPrincipal Graphics Programmer at Studio Gobo"
   links:
     - label: "GitHub"
@@ -83,6 +86,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/cormackali/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/alicormack/"
 
 footer:
   links:
@@ -119,6 +125,13 @@ defaults:
   - scope:
       path: "_portfolio"
       type: portfolio
+    values:
+      layout: single
+      author_profile: false
+  # _audiovisuals
+  - scope:
+      path: "_audiovisuals"
+      type: audiovisuals
     values:
       layout: single
       author_profile: false
